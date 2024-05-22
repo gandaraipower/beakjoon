@@ -4,7 +4,7 @@ fun main() {
     val input1 = readlnOrNull() ?: return
     val num = input1.toInt()
     var count=0
-    for (i in 0 until num) {
+    for (i in 0 until num) { //입력된 수만큼 입력을 받기 위함
         val input2 = readlnOrNull() ?: return
         val num2 = input2.split(" ").map { it.toInt() }
 
