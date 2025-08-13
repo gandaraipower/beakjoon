@@ -23,10 +23,12 @@ public class Main{
 //                System.out.print(list.get(i));
             }
 
-            Collections.sort(list);
+            Collections.sort(list); //정렬
+
+            //누적합
             int sum=0;
             int sum2=0;
-            int sum3=0;
+            int sum3=0; //누적된 값 저장
             for(int j=0;j<N;j++){
                 sum=sum2+list.get(j);
                 sum2=sum;
